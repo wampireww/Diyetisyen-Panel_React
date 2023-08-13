@@ -1,0 +1,51 @@
+.yenidanisan{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.danisanforum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ECEFF1;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px #CFD8DC;
+
+}
+
+.danisan-hr{
+    border: 1px solid #78909C;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.danisan-hr-1{
+    border: 1px solid #78909C;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.danisanforum-1{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+.danisanforum-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}

@@ -1,0 +1,27 @@
+.home {
+    background-color: #ECEFF1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 40px;
+    margin-inline: 30%;
+    border-radius: 50px;
+    border: 0.1px dotted #78909C;
+ 
+}
+
+body {
+
+   background-color: #F8F9FC;
+
+
+   }
+
+   .home-hr{
+    border: 1px solid #78909C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+   }

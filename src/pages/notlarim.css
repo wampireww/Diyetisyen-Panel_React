@@ -1,0 +1,113 @@
+.notlarim{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.notlarim-hr{
+    border: 1px solid #78909C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.notlarim-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tablo{
+  
+    border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #ECEFF1;
+    min-width: 600px;
+
+}
+
+
+.tablo-not{
+  border-collapse: collapse;
+width: 100%;
+margin-bottom: 0px;
+background-color: #ECEFF1;
+  min-width: 600px;
+  
+}
+
+.tablo-not th{
+  background-color: rgb(76,175,80);
+  padding-top: 6px;
+padding-bottom: 6px;
+text-align: left;
+font-size: 16px;
+position: sticky;
+  z-index: 2;
+}
+
+.tablo-not td, .tablo-not th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  top: 0;
+}
+
+.tablo-not tr:hover {background-color: #ddd;}
+
+.tablo th{
+    background-color: #039BE5;
+    padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+ position: sticky;
+  z-index: 2;
+  font-size: 15px;
+}
+
+.tablo td, .tablo th {
+
+    border: 0.1px solid #CFD8DC;
+    padding: 5px;
+    text-align: left;
+    top: 0;
+    font-size: 15px;
+    font-weight: 500;
+
+
+  }
+
+  .tablo tr:hover {background-color: #ddd;}
+
+  .tablonot-div{
+    max-height: 60vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 2px 2px #CFD8DC;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .tablo-div{
+    max-height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 2px 2px #CFD8DC;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .arama-span{
+
+    box-shadow: 2px 1px #CFD8DC;
+
+  }

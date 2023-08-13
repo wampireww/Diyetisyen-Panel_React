@@ -1,0 +1,44 @@
+.tabloarsiv-div{
+    max-height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 2px 2px #CFD8DC;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .tabloarsiv{
+  
+    border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #ECEFF1;
+    min-width: 600px;
+
+}
+
+
+  .tabloarsiv th{
+    background-color: #90A4AE;
+    padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+ position: sticky;
+  z-index: 2;
+  font-size: 15px;
+}
+
+.tabloarsiv td, .tabloarsiv th {
+
+    border: 0.1px solid #CFD8DC;
+    padding: 5px;
+    text-align: left;
+    top: 0;
+    font-size: 15px;
+    font-weight: 500;
+
+
+  }
+
+  .tabloarsiv tr:hover {background-color: #ddd;}

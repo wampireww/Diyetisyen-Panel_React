@@ -1,0 +1,41 @@
+.tabloayar-div{
+    max-height: 40vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 2px 1px #CFD8DC;
+    margin-top: 10px;
+  }
+
+  .tablo-ayar{
+    border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #ECEFF1;
+    min-width: 600px;
+    font-size: 15px;
+  }
+  
+  .tablo-ayar th{
+    background-color: #FF8F00;
+    padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  font-size: 15px;
+  }
+  
+  .tablo-ayar td, .tablo-ayar th {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: left;
+  }
+  
+  .tablo-ayar tr:hover {background-color: #ddd;}
+  
+
+  .react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 50%;
+}

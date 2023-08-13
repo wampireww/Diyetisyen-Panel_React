@@ -1,0 +1,14 @@
+.donemekle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #ECEFF1;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px #CFD8DC;
+
+}

@@ -1,0 +1,49 @@
+.tablorandevu-div{
+    max-height: 55vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 2px 1px #CFD8DC;
+    margin-top: 10px;
+  }
+
+  .tablo-randevu{
+    border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #ECEFF1;
+    min-width: 600px;
+    font-size: 15px;
+   
+  }
+  
+  .tablo-randevu th{
+    background-color: #0097A7;
+    padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  position: sticky;
+  z-index: 2;
+  }
+  
+  .tablo-randevu td, .tablo-randevu th {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: left;
+    top: 0;
+  }
+  
+  .tablo-randevu tr:hover {background-color: #ddd;}
+  
+  
+  .react-datepicker-popper {
+    z-index: 9999 !important;
+}
+
+.randevumodal:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
